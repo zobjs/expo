@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register ./src/index.ts",
     "build": "tsc & tsc-alias",
-    "vercel-build": "Echo Zobaidul kazi"
+    "vercel-build": "npm run build"
   },
   "keywords": [],
   "author": "",
