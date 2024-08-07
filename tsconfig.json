@@ -23,6 +23,8 @@
 			"@/*": ["*"]
 		}
 	},
-	"include": ["src/**/*.ts"],
+"include": [
+		"./api/**/*.ts",
+		"src/**/*.ts"],
 	"exclude": ["node_modules","**/*.spec.ts", "dist", "tsconfig.json", "tsconfig.preset.json"]	
 }
